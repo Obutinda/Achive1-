@@ -1,2 +1,9 @@
-# Trial
-It's going to major on the trials I'm going to make while I'll be learning programing.
+BEGIN
+NUMBER S1, S2, SUM
+OUTPUT ("INPUT NUMBER1:")
+INPUT S1
+OUTPUT ("INPUT NUMBER2:")
+INPUT S2
+SUM=S1+S2
+OUTPUT SUM
+END
