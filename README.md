@@ -37,13 +37,13 @@
       <div class="d-block d-sm-none">
         <button type="button" class="btn btn-primary position-relative">
           Mails <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span></span>
-        </button>
+    </button>
         
-        <button type="button" class="btn btn-dark position-relative">
+  <button type="button" class="btn btn-dark position-relative">
           Marker <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
         </button>
         
-        <button type="button" class="btn btn-primary position-relative">
+  <button type="button" class="btn btn-primary position-relative">
           Events <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden">unread messages</span></span>
         </button>
           <h1 id="header">IYF E-learning</h1>
@@ -88,7 +88,7 @@
     </header>
     <main>
     <!--OUR FAVORITE COURSES-->
-<div class="hstack gap-3 bg-secondary container">
+<div class="hstack gap-3 bg-secondary container .d-none .d-sm-block">
   <div class="row">
     <div class="col">
       <div class="d-inline p-2">
@@ -162,7 +162,7 @@
         </button>
       </div>
     </div>
-    <p>VIDEO EDITING</p>
+      <p>VIDEO EDITING</p>
     </div>
     <div class="vr"></div>
     <div class="col">
@@ -225,9 +225,9 @@
             <img src="..." class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
 
-            </div>
-          </div>
-        </div>
+  </div>
+ </div>
+ </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -242,16 +242,16 @@
   </div>
 </div>
 <!--just a slide for both sm&lg-->
-  <div id="carouselExampleIndicators" class="carousel slide">
+  <div id="carouselExampleIndicators" class="carousel slide .d-none .d-sm-block">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"<button type="button" class="btn btn-primary position-relative">
  
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
   
   <!---- image slides--->
-    <div class="carousel-inner">
+  <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/images/auto eng 1.jpg" class="d-block" w-"100" alt="...">
       </div>
@@ -428,11 +428,11 @@
             <!-- Add your text here -->
             <p>
               
-            </p>
-        </div>
+   </p>
+  </div>
 
         <!-- Placeholder for image -->
-        <div class="col-md-6">
+  <div class="col-md-6 d-none d-sm-block">
             <img src="your-image-source.jpg" alt="Our Story Image" class="img-fluid">
         </div>
     </div>
