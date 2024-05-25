@@ -42,7 +42,7 @@
 <body>
   <div class="bg-animation">
     <section class="main-wrapper float-lg-start float-xl-end float-md-end">
-      <div class="branding">
+      <div class="branding"
         <center>
           <img src="/images/download (11).jpeg" height="100px" width="100px">
           <h1 class="logo">IYF E-LEARNING</h1>
